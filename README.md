@@ -1,4 +1,4 @@
-# Project Name: Java Spring API Project
+# Project Name: Social Media Project
 
 ## Introduction
 This project is a Java Spring API application that provides an endpoint to create a new post. The application inserts the post data into a PostgreSQL database and makes an outbound HTTP call to fetch the current time from the World Time API. The API returns the created post ID along with the response body received from the World Time API.
