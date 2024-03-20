@@ -16,6 +16,14 @@ This project is a Java Spring API application that provides an endpoint to creat
 - Maven
 - HttpClient
 
+## Env variables
+- Before you start setting up the application there is one thing to note. Database and http configurations are picked
+  ENV variables. You need to set the ENV variables in order to run the application. Here is the list of them:
+1. SPRING_DATASOURCE_URL
+2. SPRING_DATASOURCE_USERNAME
+3. SPRING_DATASOURCE_PASSWORD
+4. HTTP_ENDPOINT (This endpoint will be called after saving the post to DB and response will be returned)
+
 ## Setup Instructions
 1. Clone the repository to your local machine.
 2. Install PostgreSQL and create a database named `your_database_name`.
