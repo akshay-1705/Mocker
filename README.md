@@ -62,7 +62,7 @@ This project is a Java Spring API application that provides an endpoint to creat
 
 ## Project Structure
 ```
-java-spring-api-project/
+SocialMedia/
 ├── src/
 │   ├── main/
 │   │   ├── java/
