@@ -57,7 +57,6 @@ This project is a Java Spring API application that provides an endpoint to creat
 - Spring Boot Starter Web: To create RESTful APIs.
 - Spring Boot Starter Data JPA: To interact with the PostgreSQL database.
 - Spring Boot Starter Test: For unit and integration testing.
-- Apache HttpClient: To make outbound HTTP calls.
 - PostgreSQL Driver: To connect to the PostgreSQL database.
 
 ## Project Structure
@@ -84,12 +83,8 @@ SocialMedia/
 │   └── test/
 │       └── java/
 │           └── com/
-│               └── example/
-│                   └── myapp/
-│                       ├── controller/
-│                       │   └── PostControllerTest.java
-│                       └── service/
-│                           └── PostServiceTest.java
+│               └── project/
+│                   └── socialmedia/
 ├── README.md
 └── pom.xml
 ```
