@@ -17,7 +17,7 @@ This project is a Java Spring API application that provides an endpoint to creat
 - HttpClient
 
 ## Env variables
-- Before you start setting up the application there is one thing to note. Database and http configurations are picked
+- Before you start setting up the application there is one thing to note. Database and http configurations are picked from
   ENV variables. You need to set the ENV variables in order to run the application. Here is the list of them:
 1. SPRING_DATASOURCE_URL
 2. SPRING_DATASOURCE_USERNAME
