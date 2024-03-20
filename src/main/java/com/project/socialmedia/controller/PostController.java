@@ -22,7 +22,8 @@ public class PostController {
     public ResponseEntity<?> createNewPost(@RequestBody PostRequestDto requestDto) {
         try {
             Long postId = postService.createNewPost(requestDto);
-            String responseBody = httpService.get("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+            String url = System.getenv("HTTP_ENDPOINT");
+            String responseBody = httpService.get(url);
 
             // Return the post ID and outbound HTTP response body
             return ResponseEntity.ok().body(
