@@ -24,13 +24,18 @@ This project is a Java Spring API application that provides an endpoint to creat
 3. SPRING_DATASOURCE_PASSWORD
 4. HTTP_ENDPOINT (This endpoint will be called after saving the post to DB and response will be returned)
 
-## Setup Instructions
+## Setup Instructions (without docker)
 1. Clone the repository to your local machine.
 2. Install PostgreSQL and create a database named `your_database_name`.
 3. Update the `application.properties` file in the `src/main/resources` directory with your PostgreSQL database credentials and URL.
 4. Open the project in IntelliJ IDEA or your preferred IDE.
 5. Build the project using Maven to download dependencies.
 6. Run the application.
+
+## Setup Instructions (with docker)
+1. Make sure you have Docker installed and setup properly on your local machine.
+2. Clone the repository
+3. Run `docker-compose up --build` and you are good to go.
 
 ## API Endpoints
 ### Create New Post
