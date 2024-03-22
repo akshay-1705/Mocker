@@ -2,7 +2,7 @@
 
 ## Introduction
 This project is a Java Spring API application that provides an endpoint to create a new post. The application inserts the post data into a PostgreSQL database and makes an outbound HTTP call to fetch the current time from the World Time API. The API returns the created post ID along with the response body received from the World Time API. This application runs in two modes: RECORD and REPLAY.
-In RECORD mode, real outbound request is made and real database insertion is done. But, in REPLAY mode this runs without any external services (HTTP/DATABASe). REPLAY mode basically mocks the RECORD mode. An ENV variable (HT_MODE) decides in which mode the application runs.
+In RECORD mode, real outbound request is made and real database insertion is done. But, in REPLAY mode this runs without any external services (HTTP/Database). REPLAY mode basically mocks the RECORD mode. An ENV variable (HT_MODE) decides in which mode the application runs. Byte buddy is used to patch the required libraries.
 
 ## Features (RECORD MODE)
 - Exposes a POST endpoint `/api/createNewPost` to create a new post.
