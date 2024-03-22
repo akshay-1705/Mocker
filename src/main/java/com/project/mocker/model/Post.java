@@ -1,4 +1,4 @@
-package com.project.socialmedia.model;
+package com.project.mocker.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

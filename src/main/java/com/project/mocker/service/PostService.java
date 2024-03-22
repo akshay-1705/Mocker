@@ -1,9 +1,9 @@
-package com.project.socialmedia.service;
+package com.project.mocker.service;
 
 
-import com.project.socialmedia.dto.PostRequestDto;
-import com.project.socialmedia.model.Post;
-import com.project.socialmedia.repository.PostRepository;
+import com.project.mocker.dto.PostRequestDto;
+import com.project.mocker.model.Post;
+import com.project.mocker.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.project.socialmedia.dto;
+package com.project.mocker.dto;
 
 public class PostRequestDto {
     private String name;

@@ -1,5 +1,5 @@
-package com.project.socialmedia.repository;
-import com.project.socialmedia.model.Post;
+package com.project.mocker.repository;
+import com.project.mocker.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

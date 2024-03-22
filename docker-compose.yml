@@ -3,7 +3,7 @@ services:
   postgres:
     image: postgres:15.5
     environment:
-      POSTGRES_DB: social_media
+      POSTGRES_DB: mocker
       POSTGRES_USER: akshayarora
       POSTGRES_PASSWORD: 191168
     ports:
@@ -16,4 +16,3 @@ services:
       - "8080:8080"
     depends_on:
       - postgres
-    command: ["sh", "-c", "java -jar /app/SocialMedia-0.0.1-SNAPSHOT.jar"]

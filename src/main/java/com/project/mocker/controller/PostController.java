@@ -1,8 +1,8 @@
-package com.project.socialmedia.controller;
+package com.project.mocker.controller;
 
-import com.project.socialmedia.dto.PostRequestDto;
-import com.project.socialmedia.service.HttpService;
-import com.project.socialmedia.service.PostService;
+import com.project.mocker.dto.PostRequestDto;
+import com.project.mocker.service.HttpService;
+import com.project.mocker.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
