@@ -79,13 +79,13 @@ In RECORD mode, real outbound request is made and real database insertion is don
 
 ## Project Structure
 ```
-SocialMedia/
+Mocker/
 ├── src/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/
 │   │   │       └── project/
-│   │   │           └── socialmedia/
+│   │   │           └── mocker/
 │   │   │               ├── controller/
 │   │   │               │   └── PostController.java
 │   │   │               ├── model/
@@ -102,7 +102,7 @@ SocialMedia/
 │       └── java/
 │           └── com/
 │               └── project/
-│                   └── socialmedia/
+│                   └── mocker/
 ├── README.md
 └── pom.xml
 ```
