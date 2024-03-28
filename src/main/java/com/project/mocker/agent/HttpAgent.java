@@ -16,9 +16,9 @@ public class HttpAgent {
         logger.info("Starting http agent");
         // We can directly patch java.net.http library
         new AgentBuilder.Default()
-                .type(ElementMatchers.named("com.project.mocker.service.HttpService"))
+                .type(ElementMatchers.named("org.apache.http.impl.client.InternalHttpClient"))
                 .transform((builder, typeDescription, classLoader, module, classFileLocator) ->
-                        builder.method(ElementMatchers.named("get"))
+                        builder.method(ElementMatchers.named("doExecute"))
                                 .intercept(MethodDelegation.to(HttpInterceptor.class))
                 )
                 .installOn(instrumentation);
